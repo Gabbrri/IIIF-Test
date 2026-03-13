@@ -1,0 +1,105 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://Gabbrri.github.io/IIIF-Test/manifests/peony.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Pfingstrosen" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/4218j9qqpqd-mmoqyk15/canvas/374iplxpt8t-mmor64se",
+    "type" : "Canvas",
+    "height" : 26828,
+    "width" : 8633,
+    "label" : {
+      "en" : [ "Peony" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "en" ]
+      },
+      "value" : {
+        "en" : [ "A hanging scroll depicting peony flowers attributed to Yun Shou Ping (惲壽平, 1633-1690) of the Qing dynasty." ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "" ]
+      }
+    } ],
+    "rights" : "Bodleian Library",
+    "navDate" : "2026-03-12T23:00:00.000Z",
+    "thumbnail" : [ {
+      "id" : "https://iiif.bodleian.ox.ac.uk/iiif/image/124a2819-eabc-4a25-89f5-1b1699a84534/full/269,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 838,
+      "width" : 269
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/4218j9qqpqd-mmoqyk15/canvas/374iplxpt8t-mmor64se/annotation-page/oltwjjn24th-mmor64se",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/4218j9qqpqd-mmoqyk15/annotation/th8qxh6eivh-mmor64se",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/4218j9qqpqd-mmoqyk15/canvas/374iplxpt8t-mmor64se",
+        "body" : {
+          "id" : "https://iiif.bodleian.ox.ac.uk/iiif/image/124a2819-eabc-4a25-89f5-1b1699a84534/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 26828,
+          "width" : 8633,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 8633,
+            "height" : 26828,
+            "sizes" : [ {
+              "width" : 67,
+              "height" : 209
+            }, {
+              "width" : 134,
+              "height" : 419
+            }, {
+              "width" : 269,
+              "height" : 838
+            }, {
+              "width" : 539,
+              "height" : 1676
+            }, {
+              "width" : 1079,
+              "height" : 3353
+            }, {
+              "width" : 2158,
+              "height" : 6707
+            }, {
+              "width" : 4316,
+              "height" : 13414
+            } ],
+            "tiles" : [ {
+              "width" : 256,
+              "height" : 256,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32, 64, 128 ]
+            } ],
+            "@id" : "https://iiif.bodleian.ox.ac.uk/iiif/image/124a2819-eabc-4a25-89f5-1b1699a84534",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "png", "webp" ],
+              "qualities" : [ "native", "color", "gray", "bitonal" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "sizeUpscaling", "rotationBy90s", "mirroring" ],
+              "maxWidth" : 4000,
+              "maxHeight" : 4000
+            } ],
+            "service" : [ {
+              "@context" : "http://iiif.io/api/annex/services/physdim/1/context.json",
+              "profile" : "http://iiif.io/api/annex/services/physdim",
+              "physicalScale" : 0.00423334,
+              "physicalUnits" : "cm"
+            } ]
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
