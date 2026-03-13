@@ -11,5 +11,11 @@
       "en" : [ "Pfingstrosen" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://Gabbrri.github.io/IIIF-Test/manifests/peony.json",
+    "label" : {
+      "en" : [ "Pfingstrosen" ]
+    },
+    "type" : "Manifest"
   } ]
 }
